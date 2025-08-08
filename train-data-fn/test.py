@@ -35,9 +35,9 @@ if vehicle_id:
     vehicle_data = api.get_vehicle(vehicle_id, date=date_str)
     pprint(vehicle_data)
 else:
-    print("❌ Aucun vehicle ID trouvé dans liveboard")
+    print(" Aucun vehicle ID trouvé dans liveboard")
 
 # 🔹 DISTURBANCES
-print("\n⚠️ 🔹 DISTURBANCES (perturbations actuelles)")
+print("\n DISTURBANCES (perturbations actuelles)")
 disturbances = api.get_disturbances()
 pprint(disturbances)

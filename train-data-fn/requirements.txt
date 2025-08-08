@@ -1,5 +1,0 @@
-azure-functions
-pandas
-requests
-pymssql
-sqlalchemy
