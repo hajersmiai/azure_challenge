@@ -1,6 +1,12 @@
-# Fichiers à ignorer
-*.zip
-*.pyc
-__pycache__/
+# Environnements
 .venv/
 .env
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Fichiers de build
+*.zip
+*.tar.gz
